@@ -8,4 +8,5 @@
 .Rproj.user
 mapit.Rproj
 ggmapTemp.png
-figure
+inst/readme/figure
+

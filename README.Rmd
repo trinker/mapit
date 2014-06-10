@@ -15,8 +15,7 @@ Download the [zip ball](https://github.com/trinker/mapit/zipball/master) or [tar
 ```{r, include=FALSE}
 library(knitr); library(ggmap); library(mapit)
 
-opts_chunk$set(cache=FALSE, tidy=FALSE, warning=FALSE)
-opts_knit$set(upload.fun = image_uri, self.contained=TRUE)
+opts_chunk$set(cache=FALSE, tidy=FALSE, warning=FALSE,  fig.path='inst/readme/figure/')
 
 ## knitr::knit2html("README.Rmd")
 ```
@@ -75,4 +74,3 @@ ggmap(mapImageData,
 		color="yellow")
 
 ```
-
