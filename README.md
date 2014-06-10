@@ -1,7 +1,9 @@
 mapit
 ====
 
-mapit is an R package designed to assist in mapping tasks.  It's prominent tool is the wrapper for the Texas A & M geoservices that provides R based geocoding.
+[![Build Status](https://travis-ci.org/trinker/mapit.png?branch=master)](https://travis-ci.org/trinker/mapit)
+
+mapit is an R package designed to assist in mapping tasks.  It's prominent tool is the wrapper for the [Texas A & M Geoservices](geoservices.tamu.ed) that provides R based geocoding.  Users can sign up for an API key [HERE](https://geoservices.tamu.edu/Signup/).
 
 ## Installation
 

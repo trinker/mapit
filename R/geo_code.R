@@ -18,7 +18,7 @@
 geo_code <- function(street, city, state, zip, api.key){
 
     ## address for geocoding
-    addresse <- paste(street, city, state, zip, sep="+")   
+    addresses <- paste(street, city, state, zip, sep="+")   
     len <- length(addresses)
     latitude <- vector("numeric", len)
     longitude <- vector("numeric", len)

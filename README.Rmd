@@ -1,7 +1,9 @@
 mapit
 ====
 
-mapit is an R package designed to assist in mapping tasks.  It's prominent tool is the wrapper for the Texas A & M geoservices that provides R based geocoding.
+[![Build Status](https://travis-ci.org/trinker/mapit.png?branch=master)](https://travis-ci.org/trinker/mapit)
+
+mapit is an R package designed to assist in mapping tasks.  It's prominent tool is the wrapper for the [Texas A & M Geoservices](geoservices.tamu.ed) that provides R based geocoding.  Users can sign up for an API key [HERE](https://geoservices.tamu.edu/Signup/).
 
 ## Installation
 
@@ -11,13 +13,12 @@ Download the [zip ball](https://github.com/trinker/mapit/zipball/master) or [tar
 
 
 ```{r, include=FALSE}
-library(knitr); library(ggmap)
+library(knitr); library(ggmap); library(mapit)
 
 opts_chunk$set(cache=FALSE, tidy=FALSE, warning=FALSE)
 opts_knit$set(upload.fun = image_uri, self.contained=TRUE)
 
-lapply(file.path("R", dir("R")), source)
-## knit2html("README.Rmd")
+## knitr::knit2html("README.Rmd")
 ```
 
 ```{r, eval=FALSE}
