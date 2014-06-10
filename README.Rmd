@@ -7,7 +7,7 @@ mapit is an R package designed to assist in mapping tasks.  Its prominent tool i
 
 ## Installation
 
-To download the development version of qdap:
+To download the development version of mapit:
 
 Download the [zip ball](https://github.com/trinker/mapit/zipball/master) or [tar ball](https://github.com/trinker/mapit/tarball/master), decompress and run `R CMD INSTALL` on it, or use the **devtools** package to install the development version:
 
