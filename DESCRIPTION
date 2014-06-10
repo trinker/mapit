@@ -1,0 +1,25 @@
+Package: mapit
+Type: Package
+Title: mapit: Functions related to mapping and geocoding.
+Version: 0.0.1
+Date: 2014-06-09
+Authors@R: c(person("Bryan", "Goodrich", role = "ctb"),
+    person("Tyler", "Rinker", email =
+    "tyler.rinker@gmail.com", role = c("aut", "cre")))
+Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
+Depends:
+    R (>= 3.0.0)
+Imports:
+    ggplot2 (>= 0.9.3.1),
+    RCurl,
+    XML
+Suggests:
+    ggmap,
+    plotGoogleMaps,
+    sp
+Description: Functions that I use when mapping geospatial data, including a
+    geocoding wrapper for the Texas A & M Geoservices.
+License: GPL-2
+URL: http://trinker.github.com/qdap/
+BugReports: http://github.com/trinker/geocode/issues
+Roxygen: list(wrap = FALSE)
